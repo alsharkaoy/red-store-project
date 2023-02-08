@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+    function passvalues(){
+        var fristname=document.getElementById("txt").value;
+        localStorage.setItem("textvalue",fristname);
+        return false;
+    }
+
+    function colm1(){
+        var redprintedtshirt=document.getElementById("col1").value;
+        localStorage.setItem("col1value",redprintedtshirt);
+        return false;
+    }
+
+    function colm2(){
+        var blackshoes=document.getElementById("col2").value;
+        localStorage.setItem("col2value",blackshoes);
+        return false;
+    }
+
+    function colm3(){
+        var graypants=document.getElementById("col3").value;
+        localStorage.setItem("col3value",graypants);
+        return false;
+    }
+
+    function colm4(){
+        var navybluetshirt=document.getElementById("col4").value;
+        localStorage.setItem("col4value",navybluetshirt);
+        return false;
+    }
+
+    function colm5(){
+        var whiteshoes=document.getElementById("col5").value;
+        localStorage.setItem("col5value",whiteshoes);
+        return false;
+    }
+
+    function colm6(){
+        var blacktshirt=document.getElementById("col6").value;
+        localStorage.setItem("col6value",blacktshirt);
+        return false;
+    }
+
+    function colm7(){
+        var softsocks=document.getElementById("col7").value;
+        localStorage.setItem("col7value",softsocks);
+        return false;
+    }
+
+    function colm8(){
+        var blackwatch=document.getElementById("col8").value;
+        localStorage.setItem("col8value",blackwatch);
+        return false;
+    }
+
+    function colm9(){
+        var graywatch=document.getElementById("col9").value;
+        localStorage.setItem("col9value",graywatch);
+        return false;
+    }
+
+    function colm10(){
+        var balcksportshoes=document.getElementById("col10").value;
+        localStorage.setItem("col10value",balcksportshoes);
+        return false;
+    }
+
+    function colm11(){
+        var grayshoes=document.getElementById("col11").value;
+        localStorage.setItem("col11value",grayshoes);
+        return false;
+    }
+
+    function colm12(){
+        var blackpants=document.getElementById("col12").value;
+        localStorage.setItem("col12value",blackpants);
+        return false;
+    }
+
+    
+
+    
+</script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    />
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+        <div class="sidebar">
+            <div class="sidebar-brand">
+                <h2><span class="lab la-accusoft"></span> <span>Accusoft</span></h2>
+            </div> 
+
+            <div class="sidebar-menu">
+                <ul>
+                    <!--1-->
+                    <li>
+                        <a href="" class="active"><span class="las la-igloo"></span><span>dashboard </span></a>
+                    </li>
+                    <!--2-->
+                    <li>
+                        <a href=""><span class="las la-users"></span><span>customers </span></a>
+                    </li>
+                    <!--3-->
+                    <li>
+                        <a href=""><span class="las la-clipboard-list"></span><span>projects </span></a>
+                    </li>
+                    <!--4-->
+                    <li>
+                        <a href=""><span class="las la-shopping-bag"></span><span>orders </span></a>
+                    </li>
+                    <!--5-->
+                    <li>
+                        <a href=""><span class="las la-receipt"></span><span>inventory </span></a>
+                    </li>
+                    <!--6-->
+                    <li>
+                        <a href=""><span class="las la-user-circle"></span><span>accounts </span></a>
+                    </li>
+                    <!--7-->
+                    <li>
+                        <a href=""><span class="las la-clipboard-list"></span><span>taskes </span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <!--header-->
+            <header>
+                <h2>
+                    <label for="nav-toggle" >
+                        <span class="las la-bars"></span>
+                    </label>
+                    dashboard
+                </h2>
+                
+                <div class="search-wrapper">
+                    <span class="las la-search"></span>
+                    <input type="search" placeholder="search here"/>
+                </div>
+            
+                <div class="user-wrapper">
+                    <img src="download (1).png" width="40px" height="40px" alt="">
+                    <div>
+                        <h4>mohamed wael</h4>
+                        <small>super admin</small>
+                    </div>
+                </div>
+            </header>
+        
+            <main> 
+            
+            <div class="cards">
+                <div class="card-single">
+                    <div class="p">
+                        <h1>54</h1>
+                        <span>customers</span>
+                    </div>
+                    <div class="i">
+                        <span class="las la-users"></span>
+                    </div>
+                 </div>
+                 <div class="card-single">
+                    <div class="p">
+                        <h1>79</h1>
+                        <span>projects</span>
+                    </div>
+                    <div class="i">
+                        <span class="las la-clipboard-list"></span>
+                    </div>
+                 </div>
+                 <div class="card-single">
+                    <div class="p">
+                        <h1>124</h1>
+                        <span>orders</span>
+                    </div>
+                    <div class="i">
+                        <span class="las la-shopping-bag"></span>
+                    </div>
+                 </div>
+                 <div class="card-single">
+                    <div class="p">
+                        <h1>$6k</h1>
+                        <span>income</span>
+                    </div>
+                    <div class="i">
+                        <span class="lab la-google-wallet"></span>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="item-users">
+                
+                <div class="items">
+                    <div class="d">
+                    <h2>add items</h2>
+                <div class="im">
+                    <span><a href="" class="active"><img src="newitem.png" width="100" height="100"></a><div>new iteams</div></span>
+                    <span><a href="" class="active"><img src="newitem.png" width="100" height="100"></a><div>new iteams</div></span>
+                    <span><a href="" class="active"><img src="newitem.png" width="100" height="100"></a><div>new iteams</div></span>
+                    <span><a href="" class="active"><img src="newitem.png" width="100" height="100"></a><div>new iteams</div></span>
+                </div>
+                </div>
+                </div>
+
+                <div class="use">
+                    <div class="d">
+                    <h2>latest users</h2>
+                    <div class="im2">
+                        <span><a href="" class="active"><img src="users.png" width="100" height="100"></a><div>user name</div></span>
+                        <span><a href="" class="active"><img src="users.png" width="100" height="100"></a><div>user name</div></span>
+                        <span><a href="" class="active"><img src="users.png" width="100" height="100"></a><div>user name</div></span>
+                        <span><a href="" class="active"><img src="users.png" width="100" height="100"></a><div>user name</div></span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    <h1 class="none"> change name
+        <form >
+            <input type="text" id="txt">
+            <input type="submit" value="click" onclick="passvalues();">
+        </form>
+    </h1>
+
+
+<div class="price">
+    <h1>salary</h1>
+
+
+    <div class="salary">
+        
+        <div class="p1">
+            <div>
+
+        <span> red printed t-shirt 
+            <form>
+                <input type="text" id="col1">
+            <input type="submit" value="click" onclick="colm1();">
+            </form>
+        </span>
+    </div>
+
+    <div>
+
+        <span> black shoes 
+            <form>
+                <input type="text" id="col2">
+            <input type="submit" value="click" onclick="colm2();">
+            </form>
+        </span>
+    </div>
+
+    <div>
+
+        <span> gray pants
+            <form>
+                <input type="text" id="col3">
+            <input type="submit" value="click" onclick="colm3();">
+            </form>
+        </span>
+    </div>
+</div>
+
+<div class="p1">
+    <div>
+        <span> navy blue t-shirt
+            <form>
+                <input type="text" id="col4">
+            <input type="submit" value="click" onclick="colm4();">
+            </form>
+        </span>
+    </div>
+    
+
+   
+
+        <div>
+        <span> white shoes
+            <form>
+                <input type="text" id="col5">
+            <input type="submit" value="click" onclick="colm5();">
+            </form>
+        </span>
+    </div>
+
+<div>
+
+        <span> black t-shirt
+            <form>
+                <input type="text" id="col6">
+            <input type="submit" value="click" onclick="colm6();">
+            </form>
+        </span>
+    </div>
+
+    
+    </div>
+    <div class="p1">
+
+        <span> soft socks
+            <form>
+                <input type="text" id="col7">
+            <input type="submit" value="click" onclick="colm7();">
+            </form>
+        </span>
+    
+
+    <div>
+
+        <span> black watch
+            <form>
+                <input type="text" id="col8">
+            <input type="submit" value="click" onclick="colm8();">
+            </form>
+        </span>
+    </div>
+
+    
+
+    
+        <div>
+
+        <span> gray watch
+            <form>
+                <input type="text" id="col9">
+            <input type="submit" value="click" onclick="colm9();">
+            </form>
+        </span>
+        </div>
+    </div>
+    
+    <div class="p1">
+            <div>
+
+        <span> balck sport shoes
+            <form>
+                <input type="text" id="col10">
+            <input type="submit" value="click" onclick="colm10();">
+            </form>
+        </span>
+    </div>
+    <div>
+
+        <span> gray shoes
+            <form>
+                <input type="text" id="col11">
+            <input type="submit" value="click" onclick="colm11();">
+            </form>
+        </span>
+
+    </div>
+
+    <div>
+
+        <span> black pants
+            <form>
+                <input type="text" id="col12">
+            <input type="submit" value="click" onclick="colm12();">
+            </form>
+        </span>
+
+    </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="d">
+
+    <h1>
+        changecolor
+    </h1>
+       <button id="color-red">pink</button>
+       <button id="color-white">gray</button>
+       <button id="color-green">darkgray</button>
+    
+</div>
+
+
+     
+    <script src="js/main.js"></script>
+    <script src="js/admin.js"></script>
+    
+    
+    
+</body>
+</html>
